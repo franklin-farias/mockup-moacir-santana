@@ -7,7 +7,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
@@ -38,6 +38,7 @@
     "@types/jasmine": "~2.8.8",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
+    "angular-cli-ghpages": "^0.5.3",
     "codelyzer": "~4.5.0",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
@@ -48,10 +49,10 @@
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.4.0",
     "pug-cli": "^1.0.0-alpha6",
+    "pug-it": "pug src",
+    "pug-it:w": "pug src -P -w",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
-    "typescript": "~3.2.2",
-    "pug-it": "pug src",
-    "pug-it:w": "pug src -P -w"
+    "typescript": "~3.2.2"
   }
 }
