@@ -3,7 +3,7 @@
 @import "~bootstrap/scss/bootstrap-reboot";
 @import "~bootstrap/scss/bootstrap-grid";
 @import "~animate.css/animate.css";
-
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
 *{
   font-family: 'Poppins', sans-serif;
@@ -20,6 +20,13 @@ html, body{
 @font-face {
   font-family: 'Poppins', sans-serif;
   src: url(assets/fonts/Poppins-Black.ttf);
+}
+
+.perfil{
+  height: 700px;
+  background-image: url("assets/img/moacir.png");
+  background-size: 650px;
+  background-repeat: no-repeat;
 }
 
 .container-flex{
