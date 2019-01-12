@@ -27,9 +27,18 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/scss/bootstrap-reboot.scss",
+              "node_modules/bootstrap/scss/bootstrap-grid.scss",
+              "node_modules/animate.css/animate.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/wowjs/dist/wow.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/gsap/src/minified/TweenMax.min.js",
+              "node_modules/gsap/src/minified/TweenLite.min.js"
+            ]
           },
           "configurations": {
             "production": {
