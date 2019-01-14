@@ -4,6 +4,8 @@
 @import "~bootstrap/scss/bootstrap-grid";
 @import "~animate.css/animate.css";
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
 
 *{
   font-family: 'Poppins', sans-serif;
@@ -17,15 +19,20 @@ html, body{
   background-repeat: no-repeat;
 }
 
+
 @font-face {
   font-family: 'Poppins', sans-serif;
   src: url(assets/fonts/Poppins-Black.ttf);
 }
 
+.container-fluid{
+  height: 100vh;
+}
+
 .perfil{
   height: 700px;
-  background-image: url("assets/img/moacir.png");
-  background-size: 650px;
+  background-image: url("assets/img/moacir2.png");
+  background-size: 750px;
   background-repeat: no-repeat;
 }
 
@@ -44,7 +51,6 @@ html, body{
 }
 
 .historia{
-  margin-top: -150px;
   background: #bc8311;
   background-image: url("assets/img/background-historia-01.png");
   background-repeat: no-repeat;
@@ -62,11 +68,13 @@ html, body{
    margin: 0;
 }
 
-/*
 [class*='col-']{
+  /*
   border: 1px solid #000;
+  */
+  height: 100vh;
+
 }
-*/
 
 .home {
   height:768px;
