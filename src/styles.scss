@@ -22,7 +22,7 @@ html, body{
 
 @font-face {
   font-family: 'Poppins', sans-serif;
-  src: url(assets/fonts/Poppins-Black.ttf);
+  src: url('/assets/fonts/Poppins-Black.ttf');
 }
 
 .container-fluid{
@@ -32,7 +32,7 @@ html, body{
 .perfil{
   height: 700px;
   background-image: url("assets/img/moacir2.png");
-  background-size: 750px;
+  background-size: 70%;
   background-repeat: no-repeat;
 }
 
@@ -58,7 +58,7 @@ html, body{
 }
 
 .text-historia{
-  padding: 100px;
+  padding: 80px;
   color: #FFDE8A;
   line-height: 2em;
   text-align: justify;
